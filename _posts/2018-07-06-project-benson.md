@@ -24,13 +24,13 @@ By order of importance, the data used was:
     2. The evening, between 5PM and 8PM
 2. **Tech Company and School Density (Tech Interest):** We used Google Maps API to search for large technology companies and universities in New York City. The aim was to find what location had the highest density of these organizations, based on the assumption that students and people working in the tech field would not only be interested in the events themselves, but would also be able to spread word of the gala to other interested parties in their network.
   + Top 10 Stations
-  ![alt	text](/Users/mayamadhavan/Desktop/Post Grad/Blog Pics/Benson/tech_companies.png)
+  ![alt text](/images/Benson/tech_companies.png)
 3. **Tech Events and Meetups (Tech Interest):** The third factor we were interested in was where the greatest number of technology events occurred. For this we again employed the Google API as well as Meetup’s API and ran searches for technology events. Here, the thought was if people were already attending similar events, they were more likely to attend WTWY’s gala. 
   + Top 10 Stations
-  ![alt	text](/Users/mayamadhavan/Desktop/Post Grad/Blog Pics/Benson/meetup.png)
+  ![alt text](/images/Benson/meetup.png)
 4. **House Prices (Wealth):** Finally, we took a look at the sale prices for all family dwellings and apartment buildings in the city, using open governmental records. This was where we began to think about the people who are likely to donate. We looked at the rent prices in the different boroughs for residential buildings, under the assumption that the people who went through stations in places with higher rent were more likely to have spare income.
   +Top 10 Stations
-  ![alt text](/Users/mayamadhavan/Desktop/Post Grad/Blog Pics/Benson/wealth.png)
+  ![alt text](/images/Benson/wealth.png)
   
 ## Scoring System
 Our Formula was as Follows:
@@ -38,7 +38,7 @@ Our Formula was as Follows:
 
 ## Results/Conclusions
 Based on this formula, the top 15 stations and their corresponding value counts are as follows:
-![alt text](/Users/mayamadhavan/Desktop/Post Grad/Blog Pics/Benson/filan_score.png)
+![alt text](/images/Benson/final_score.png)
 
 We recommend that WTWY spends the majority of its street team resources on the above stations, and distribute the remainder as they see fit, given the individual data analysis their personal priorities.
 
