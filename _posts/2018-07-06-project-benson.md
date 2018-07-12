@@ -18,7 +18,7 @@ We determined the weights of each data with the goals in mind, prioritizing enga
 By order of importance, the data used was:
 1. **Volume of Exits per MTA Station (Exposure):** Using the publicly available MTA turnstile data, we were able to determine which stations had the highest number of exits during work hours (6AM-8PM). Because people entering stations likely were on a time crunch as they trains to catch, we believed that looking at exit numbers was more useful. We also searched for the highest volume of exits across stations, although this metric did not factor into our final formula as it was universal to all stations.
   +Top 10 Stations
-  ![alt text](/Users/mayamadhavan/Desktop/Post Grad/Blog Pics/Benson/exposure.png
+  ![alt text](/images/Benson/exposure.png)
   +The time periods with the highest volume of exits over all stations were:
     1. Late morning, between 9AM and 12PM
     2. The evening, between 5PM and 8PM
