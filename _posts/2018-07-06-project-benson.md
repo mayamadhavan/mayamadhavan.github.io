@@ -3,18 +3,18 @@ layout: post
 title: Analysis of MTA Turnstyle Data for Leaftletting
 ---
 
-##Purpose
+## Purpose
 In the first week, we did a project in which we roleplayed as consultants for the fictional organization Women Tech Women Yes (WTWY). WTWY is a New York City based charity that supports women in technology and hosts an annual gala in the last two weeks of July. Invitations for this event are sent to people who register their emails with street team members based at MTA stations
 
-##Goals and Methods
+## Goals and Methods
 Our job was to maximize the number of attendees at this event. We made a profile of our target audience, someone who was interested in tech and/or wealthy enough to spare a donation. The datasets chosen were meant to identify high traffic stations in locations frequented by the targeted groups. 
 
-##Approach
+## Approach
 After obtaining, cleaning, and organizing the data we ran quick visualizations in order to determine the most “valuable” stations for each individual metric.  Finally, we inputted each data point for a given station into a weighted formula from which we extracted the top 15 stations. Every dataset either contained or was given a zip code indicator to use as an index.
 
 We determined the weights of each data with the goals in mind, prioritizing engagement over donations.
 
-##Data
+## Data
 By order of importance, the data used was:
 1. **Volume of Exits per MTA Station (Exposure):** Using the publicly available MTA turnstile data, we were able to determine which stations had the highest number of exits during work hours (6AM-8PM). Because people entering stations likely were on a time crunch as they trains to catch, we believed that looking at exit numbers was more useful. We also searched for the highest volume of exits across stations, although this metric did not factor into our final formula as it was universal to all stations.
   +Top 10 Stations
