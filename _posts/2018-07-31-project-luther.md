@@ -1,3 +1,9 @@
+---
+layout: post
+title: Predicting Reviews on Steam Games via Linear Regression
+---
+
+
 # Purpose
 Almost everyone knows that feeling of getting lost in the moment while playing a game and coming back to reality hours later, frustrated and still ready for the next round. Video games are simply an extension of this feeling, made even more engrossing with complex story arcs and gameplays.
 
