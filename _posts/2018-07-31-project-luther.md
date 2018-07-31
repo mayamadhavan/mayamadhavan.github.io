@@ -21,9 +21,7 @@ It was required that students use regression and gather data via web scraping fo
 
 After doing an exploratory analysis of my models, I ran the regression, analyzed results using residual vs fitted plots (among others diagnostic plots) and adjusted my model accordingly.
 
-
-
-
+ ![alt text](/images/luther/regress_format.png)
 A High-Level Outline of My Process.
 
 
@@ -32,20 +30,17 @@ A High-Level Outline of My Process.
 I pulled out a simple random sample of 10475 games from Steam’s main search page and ran an iterative regression analysis, as described above. I then split my data into a training set and a testing set, with 30% going to the test set.
 
 My base model (the training set with all original features) had a poor R2 of 0.068. I attempted multiple scaling/normalization transformation on my variables to obtain a better fitting model. The successful ones were as follows.
-
-
+ ![alt text](/images/luther/var_mods.png)
 
 Given the small difference in R2 and Adjusted R2, I chose not to regularize the model at this point.
 
 The output of this model on my test set:
+![alt text](/images/luther/regress_ap.png)
 
-
-
-
-
-
+----
 After running the regression analysis, I compared the average R2 values of the train and test sets across 10 folds over 9 different models, including regression.
 
+ ![alt text](/images/luther/models.png)
 The blue bars represent the average R2 on the train set, while the orange bar represents the same value on the test set.
 
 
@@ -57,6 +52,8 @@ This is the model I ran on the holdout test set I had made at the beginning
 
 The final R2 I got on my full train set was 0.4818365496905238
 The final R2 on my test set was 0.2066513992465474
+
+ ![alt text](/images/luther/gbt_ap.png)
 
 These scores indicate that the model both overfits and has high bias. This implies that the model could use further tuning, or another model should be put into place.
 
