@@ -2,8 +2,8 @@
 permalink:           pretty
 
 # Setup
-title:               Github Blog
-tagline:             A Moderately Okay Data Science Blog
+title:               Maya's Project Blog
+tagline:             Talk Data to Me
 url:                 http://mayamadhavan.github.io/
 paginate:            2
 baseurl:             ""
