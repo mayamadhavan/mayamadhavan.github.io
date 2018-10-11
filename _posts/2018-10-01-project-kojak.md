@@ -16,13 +16,13 @@ Given that a student considering colleges probably knows at least one school the
 ### Gathering
 I gathered the data from four sources.
 1.	College Scorecard: This was my main dataset. It’s released every year through the US Department of Education, and is available via csv downloads and and API. I took the CSV download of the information from the 2015-2016 school year, as this was the most year available in this format.
-a.	This dataset had 1500+ columns about 7000+ schools across America.
+++	This dataset had 1500+ columns about 7000+ schools across America.
 2.	US News: Based on my personal experiences, US News rankings are the most commonly used by applicants. This is where I scraped liberal arts college rankings for my initial visualizations, along with tuition and fees, enrollment, location, and whether the school was public or private.
-a.	I used some of this in my cleaning
-b.	There were ~200 ranked schools
-c.	Rankings change only marginally on a year to year basis (see: rankings based on previous assumptions), so there wasn’t a major problem with matching the data.
+++	I used some of this in my cleaning
+++ There were ~200 ranked schools
+++	Rankings change only marginally on a year to year basis (see: rankings based on previous assumptions), so there wasn’t a major problem with matching the data.
 3.	Wikipedia: I scraped NCAA divisions from their respective Wikipedia pages. I also collected some more location and school type (public/private) data to use while cleaning.
-a.	~1000 Schools
+++	~1000 Schools
 4.	Data.world: There was a premade csv here of US News University Rankings, including the rank and other info that was again useful for cleanings.
 
 ### Cleaning
