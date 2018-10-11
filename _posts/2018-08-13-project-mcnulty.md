@@ -1,4 +1,7 @@
-
+---
+layout: post
+title: Predicting US Visa Approvals
+---
 
 # Background
 Getting a US visa is a long and occasionally confusing process. Applicants can sink a considerable amount of resources into all the appointments and forms they have.
