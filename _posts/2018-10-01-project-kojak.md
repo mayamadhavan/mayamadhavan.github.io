@@ -1,6 +1,6 @@
 ---
 layout: post
-title: US College Application Tool
+title: Building a US College Application Tool
 ---
 
 # Project Design
