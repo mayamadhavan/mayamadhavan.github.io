@@ -62,6 +62,6 @@ I was very pleased with how this project turned out, although I was concerned ab
 ## More To Do
 As stated in my presentation, I’d like to simplify my model to accommodate students who have no idea what schools they are interested in, i.e. for those who are just starting out with applying (high school juniors). I’d also want to drop acceptance rate, which I’d kept to retain the “reach, target, safety” schema but can be a proxy for rank.
 
-Data: 4 Sources
-Tools: SQL, Pandas, Flask, Tableau
-Algorithms: Clustering, Recommender Systems
+# Data: 4 Sources
+# Tools: SQL, Pandas, Flask, Tableau
+# Algorithms: Clustering, Recommender Systems
