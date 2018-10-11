@@ -56,14 +56,12 @@ First, I checked for dimensions by running TSNE plots. The best one for all the 
 
 Then I checked the SSE/Silhouette score plots to find the best number of clusters and printed the results.
 
-Sadly, it made no sense. :cry:
 
 # Classification on negative reviews
 I used the clustering method that was found for the overall reviews, i.e. KMeans on the topic space in order to maintain consistency. At this point I still thought both of these would make it to my final presentation.
 
 The rest was essentially a repeat of the classification on overall reviews; i.e. changing dimensions, checking the SSE/silhouette score for the number of clusters, printing out the silhouette score per cluster, trying a few different cluster numbers, printing the four closest reviews, and skimming them for some relationship.
 
-Again, no success here. :cry: :cry:
 
 # Star Rating
 This was a classification problem whose purpose was to ensure that reviewers were leaving the correct stars.
